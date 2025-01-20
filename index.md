@@ -7,7 +7,7 @@ hero:
   text: "Manual Pengguna MyReCourt"
   tagline: Panduan lengkap penggunaan sistem MyReCourt untuk pengguna
   image:
-    src: https://myrecourtv3.datasc.dev/images/myrecourt.png
+    src: https://myrecourt.kedah.gov.my/images/myrecourt.png
     alt: Logo MyReCourt
   actions:
     - theme: brand

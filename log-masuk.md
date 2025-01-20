@@ -10,7 +10,7 @@ Membantu pengguna untuk log masuk ke dalam sistem MyReCourt menggunakan ID pengg
 
 ::: tip Langkah 1
 1. Buka pelayar web anda (contohnya Google Chrome)
-2. Layari URL: [https://myrecourtv3.datasc.dev/login.php](https://myrecourtv3.datasc.dev/login.php)
+2. Layari URL: [https://myrecourt.kedah.gov.my/login.php](https://myrecourt.kedah.gov.my/login.php)
 3. Anda akan melihat paparan log masuk sistem
 :::
 

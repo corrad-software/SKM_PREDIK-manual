@@ -12,7 +12,7 @@ export default defineConfig({
       "link",
       {
         rel: "icon",
-        href: "https://myrecourtv3.datasc.dev/images/myrecourt.png",
+        href: "https://myrecourt.kedah.gov.my/images/myrecourt.png",
       },
     ],
     ["meta", { name: "theme-color", content: "#FDDA0D" }],
@@ -25,14 +25,14 @@ export default defineConfig({
       "link",
       {
         rel: "apple-touch-icon",
-        href: "https://myrecourtv3.datasc.dev/images/myrecourt.png",
+        href: "https://myrecourt.kedah.gov.my/images/myrecourt.png",
       },
     ],
     [
       "link",
       {
         rel: "mask-icon",
-        href: "https://myrecourtv3.datasc.dev/images/myrecourt.png",
+        href: "https://myrecourt.kedah.gov.my/images/myrecourt.png",
         color: "#FDDA0D",
       },
     ],
@@ -40,7 +40,7 @@ export default defineConfig({
       "meta",
       {
         name: "msapplication-TileImage",
-        content: "https://myrecourtv3.datasc.dev/images/myrecourt.png",
+        content: "https://myrecourt.kedah.gov.my/images/myrecourt.png",
       },
     ],
     ["meta", { name: "msapplication-TileColor", content: "#FDDA0D" }],
@@ -48,7 +48,7 @@ export default defineConfig({
 
   themeConfig: {
     siteTitle: "MyReCourt",
-    logo: "https://myrecourtv3.datasc.dev/images/myrecourt.png",
+    logo: "https://myrecourt.kedah.gov.my/images/myrecourt.png",
 
     nav: [
       { text: "Utama", link: "/" },
@@ -142,12 +142,12 @@ export default defineConfig({
       start_url: "/",
       icons: [
         {
-          src: "https://myrecourtv3.datasc.dev/images/myrecourt.png",
+          src: "https://myrecourt.kedah.gov.my/images/myrecourt.png",
           sizes: "192x192",
           type: "image/png",
         },
         {
-          src: "https://myrecourtv3.datasc.dev/images/myrecourt.png",
+          src: "https://myrecourt.kedah.gov.my/images/myrecourt.png",
           sizes: "512x512",
           type: "image/png",
         },

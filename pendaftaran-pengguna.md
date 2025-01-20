@@ -10,7 +10,7 @@ Membantu pengguna untuk mendaftar akaun baru dalam sistem MyReCourt.
 
 ::: tip Langkah 1
 1. Buka pelayar web anda (contohnya Google Chrome)
-2. Layari URL: [https://myrecourtv3.datasc.dev/](https://myrecourtv3.datasc.dev/)
+2. Layari URL: [https://myrecourt.kedah.gov.my/](https://myrecourt.kedah.gov.my/)
 3. Anda akan melihat paparan log masuk sistem
 :::
 

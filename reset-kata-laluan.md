@@ -10,7 +10,7 @@ Membantu pengguna untuk menetapkan semula kata laluan yang terlupa dalam sistem 
 
 ::: tip Langkah 1
 1. Buka pelayar web anda (contohnya Google Chrome)
-2. Layari URL: [https://myrecourtv3.datasc.dev](https://myrecourtv3.datasc.dev)
+2. Layari URL: [https://myrecourt.kedah.gov.my](https://myrecourt.kedah.gov.my)
 3. Pada halaman log masuk, klik pada pautan **Terlupa kata laluan?**
 :::
 
