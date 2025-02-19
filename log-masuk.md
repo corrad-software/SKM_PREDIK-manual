@@ -24,8 +24,7 @@ Membantu pengguna untuk log masuk ke dalam sistem MyReCourt menggunakan ID pengg
 3. Tandakan kotak "I'm not a robot" untuk pengesahan reCAPTCHA
 4. Klik butang **MASUK** untuk log masuk ke dalam sistem
 :::
-
-![Log Masuk ke Sistem](./image/log-masuk/image2.png)
+<img src="./image/log-masuk/image2.png" alt="Log Masuk ke Sistem" width="370">
 
 ::: warning Nota Penting
 - Pastikan ID pengguna dan kata laluan yang dimasukkan adalah betul

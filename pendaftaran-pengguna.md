@@ -23,8 +23,7 @@ Membantu pengguna untuk mendaftar akaun baru dalam sistem MyReCourt.
 2. Sistem akan memaparkan borang pendaftaran
 :::
 
-![Klik Daftar Pengguna](./image/pendaftaran/image2.png)
-
+<img src="./image/pendaftaran/image2.png" alt="Klik Daftar Penggun" width="350">
 ### 3. Semakan Alamat Emel
 
 ::: tip Langkah 3
