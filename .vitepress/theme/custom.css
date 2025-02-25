@@ -1,42 +1,42 @@
 :root {
-  --vp-c-brand: #fdda0d;
-  --vp-c-brand-light: #ffeb80;
-  --vp-c-brand-lighter: #fff3b3;
-  --vp-c-brand-dark: #ccae0a;
-  --vp-c-brand-darker: #998208;
+  --vp-c-brand: #0066B3;
+  --vp-c-brand-light: #0077CC;
+  --vp-c-brand-lighter: #0088DD;
+  --vp-c-brand-dark: #005599;
+  --vp-c-brand-darker: #004477;
 
-  --vp-button-brand-border: #fdda0d;
-  --vp-button-brand-text: #000000;
-  --vp-button-brand-bg: #fdda0d;
-  --vp-button-brand-hover-border: #ffeb80;
-  --vp-button-brand-hover-text: #000000;
-  --vp-button-brand-hover-bg: #ffeb80;
-  --vp-button-brand-active-border: #ccae0a;
-  --vp-button-brand-active-text: #000000;
-  --vp-button-brand-active-bg: #ccae0a;
+  --vp-button-brand-border: #0066B3;
+  --vp-button-brand-text: #ffffff;
+  --vp-button-brand-bg: #0066B3;
+  --vp-button-brand-hover-border: #0077CC;
+  --vp-button-brand-hover-text: #ffffff;
+  --vp-button-brand-hover-bg: #0077CC;
+  --vp-button-brand-active-border: #005599;
+  --vp-button-brand-active-text: #ffffff;
+  --vp-button-brand-active-bg: #005599;
 }
 
 /* Customizing other UI elements */
 .VPNav {
-  --vp-c-brand: #fdda0d !important;
+  --vp-c-brand: #0066B3 !important;
 }
 
 .VPHero.VPHomeHero .container .main .name .clip {
-  color: #fdda0d !important;
+  color: #0066B3 !important;
   -webkit-text-fill-color: #bf2604 !important;
 }
 
 .VPLink.active {
-  color: #fdda0d !important;
+  color: #0066B3 !important;
 }
 
 /* Custom styles for better contrast */
 .vp-doc a {
-  color: #998208;
+  color: #004477;
 }
 
 .vp-doc a:hover {
-  color: #fdda0d;
+  color: #0066B3;
 }
 
 /* Making sure text on yellow backgrounds is readable */
@@ -45,12 +45,12 @@
 } */
 
 .VPButton.brand {
-  background-color: #fdda0d !important;
-  border-color: #fdda0d !important;
-  color: #000000 !important;
+  background-color: #0066B3 !important;
+  border-color: #0066B3 !important;
+  color: #ffffff !important;
 }
 
 .VPButton.brand:hover {
-  background-color: #ffeb80 !important;
-  border-color: #ffeb80 !important;
+  background-color: #0077CC !important;
+  border-color: #0077CC !important;
 }
