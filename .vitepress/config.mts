@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "PRIDIK",
-  description: "Manual Pengguna PRIDIK",
+  description: "Carta Alir Sistem PRIDIK",
   lang: "ms-MY",
   lastUpdated: true,
 
@@ -12,7 +12,7 @@ export default defineConfig({
       "link",
       {
         rel: "icon",
-        href: "https://myrecourt.kedah.gov.my/images/myrecourt.png",
+        href: "https://PRIDIK.kedah.gov.my/images/PRIDIK.png",
       },
     ],
     ["meta", { name: "theme-color", content: "#FDDA0D" }],
@@ -25,14 +25,14 @@ export default defineConfig({
       "link",
       {
         rel: "apple-touch-icon",
-        href: "https://myrecourt.kedah.gov.my/images/myrecourt.png",
+        href: "https://PRIDIK.kedah.gov.my/images/PRIDIK.png",
       },
     ],
     [
       "link",
       {
         rel: "mask-icon",
-        href: "https://myrecourt.kedah.gov.my/images/myrecourt.png",
+        href: "https://PRIDIK.kedah.gov.my/images/PRIDIK.png",
         color: "#FDDA0D",
       },
     ],
@@ -40,63 +40,45 @@ export default defineConfig({
       "meta",
       {
         name: "msapplication-TileImage",
-        content: "https://myrecourt.kedah.gov.my/images/myrecourt.png",
+        content: "https://PRIDIK.kedah.gov.my/images/PRIDIK.png",
       },
     ],
     ["meta", { name: "msapplication-TileColor", content: "#FDDA0D" }],
   ],
 
   themeConfig: {
-    siteTitle: "MyReCourt",
-    logo: "https://myrecourt.kedah.gov.my/images/myrecourt.png",
+    siteTitle: "PRIDIK",
+    logo: "https://PRIDIK.kedah.gov.my/images/PRIDIK.png",
 
     nav: [
       { text: "Utama", link: "/" },
+      { text: "Carta Alir Sistem", link: "/carta-alir" },
+      { text: "Pengurusan Entiti", link: "/pengurusan-entiti" },
       {
-        text: "Akaun",
+        text: "Paparan",
         items: [
-          { text: "Pendaftaran Pengguna", link: "/pendaftaran-pengguna" },
-          { text: "Log Masuk", link: "/log-masuk" },
-          { text: "Reset Kata Laluan", link: "/reset-kata-laluan" },
-          { text: "Kemaskini Profil", link: "/kemaskini-profil" },
+          { text: "Paparan Indeks", link: "/paparan-indeks" },
+          { text: "Paparan Lejar", link: "/paparan-lejar" },
         ],
       },
-      {
-        text: "Permohonan",
-        items: [
-          { text: "Borang Permohonan", link: "/borang-permohonan" },
-          { text: "Senarai Permohonan", link: "/senarai-permohonan" },
-          { text: "Cetak Borang", link: "/cetak-borang" },
-        ],
-      },
-      { text: "Pembayaran", link: "/pembayaran" },
     ],
 
     sidebar: [
       {
-        text: "Manual Pengguna",
+        text: "Carta Alir Sistem",
         items: [
           { text: "Utama", link: "/" },
+          { text: "Carta Alir Sistem", link: "/carta-alir" },
+          { text: "Pengurusan Entiti", link: "/pengurusan-entiti" },
           {
-            text: "Pengurusan Akaun",
+            text: "Paparan",
             collapsed: false,
             items: [
-              { text: "Pendaftaran Pengguna", link: "/pendaftaran-pengguna" },
-              { text: "Log Masuk", link: "/log-masuk" },
-              { text: "Reset Kata Laluan", link: "/reset-kata-laluan" },
-              { text: "Kemaskini Profil", link: "/kemaskini-profil" },
+              { text: "Paparan Indeks", link: "/paparan-indeks-koperasi" },
+              { text: "Paparan Lejar", link: "/paparan-lejar-koperasi" },
+              { text: "Muat Naik & Semakan", link: "/muat-naik-semakan-koperasi" },
             ],
           },
-          {
-            text: "Pengurusan Permohonan",
-            collapsed: false,
-            items: [
-              { text: "Borang Permohonan", link: "/borang-permohonan" },
-              { text: "Senarai Permohonan", link: "/senarai-permohonan" },
-              { text: "Cetak Borang", link: "/cetak-borang" },
-            ],
-          },
-          { text: "Pembayaran", link: "/pembayaran" },
         ],
       },
     ],
@@ -104,8 +86,8 @@ export default defineConfig({
     socialLinks: [],
 
     footer: {
-      message: "Sistem MyReCourt",
-      copyright: `© ${new Date().getFullYear()} MyReCourt. Hak Cipta Terpelihara.`,
+      message: "Sistem PRIDIK",
+      copyright: `© ${new Date().getFullYear()} PRIDIK. Hak Cipta Terpelihara.`,
     },
 
     search: {
@@ -133,8 +115,8 @@ export default defineConfig({
   // PWA Configuration
   pwa: {
     manifest: {
-      name: "MyReCourt Manual",
-      short_name: "MyReCourt",
+      name: "PRIDIK Manual",
+      short_name: "PRIDIK",
       theme_color: "#FDDA0D",
       background_color: "#ffffff",
       display: "standalone",
@@ -142,12 +124,12 @@ export default defineConfig({
       start_url: "/",
       icons: [
         {
-          src: "https://myrecourt.kedah.gov.my/images/myrecourt.png",
+          src: "https://PRIDIK.kedah.gov.my/images/PRIDIK.png",
           sizes: "192x192",
           type: "image/png",
         },
         {
-          src: "https://myrecourt.kedah.gov.my/images/myrecourt.png",
+          src: "https://PRIDIK.kedah.gov.my/images/PRIDIK.png",
           sizes: "512x512",
           type: "image/png",
         },
