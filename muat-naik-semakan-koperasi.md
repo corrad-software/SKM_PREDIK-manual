@@ -55,7 +55,8 @@ Bahagian ini memaparkan hasil analisis automatik sistem terhadap dokumen yang di
 
 Pada langkah pertama, anda perlu mengisi maklumat asas koperasi:
 
-- **Nama Koperasi**: Pilih nama koperasi dari senarai yang tersedia
+- **Jenis Organisasi**: Pilih jenis organisasi (Dalam contoh ini, Anak Syarikat)
+- **Pilih Anak Syarikat**: Pilih anak syarikat yang disenaraikan (dalam contoh ini, Syarikat A)
 - **Negeri**: Pilih negeri di mana koperasi beroperasi
 - **Tahun Kewangan Semasa**: Masukkan tahun kewangan semasa dalam format dd/mm/yyyy
 - **Tahun Kewangan Sebelum**: Masukkan tahun kewangan sebelum dalam format dd/mm/yyyy
@@ -78,8 +79,8 @@ Selepas muat naik, sistem akan menjalankan analisis terperinci dan memaparkan:
 <img src="./image/muat-naik-semakan/image3.png" alt="Imbangan Duga" width="800">
 
 Langkah ini memerlukan:
-1. Muat naik fail Imbangan Duga
-2. Muat naik fail rujukan yang berkaitan
+1. Muat naik fail Imbangan Duga (Berdasarkan Fail Contoh yang diberikan)
+2. Muat naik fail rujukan yang berkaitan (Berdasarkan Fail Contoh yang diberikan)
 
 Selepas muat naik, sistem akan menjalankan analisis ringkas yang menunjukkan:
 - Status semakan dokumen
@@ -91,8 +92,8 @@ Selepas muat naik, sistem akan menjalankan analisis ringkas yang menunjukkan:
 <img src="./image/muat-naik-semakan/image4.png" alt="Ledger" width="800">
 
 Langkah ini memerlukan:
-1. Muat naik fail Ledger
-2. Muat naik fail rujukan yang berkaitan
+1. Muat naik fail Ledger (Berdasarkan Fail Contoh yang diberikan)
+2. Muat naik fail rujukan yang berkaitan (Berdasarkan Fail Contoh yang diberikan)
 
 Selepas muat naik, sistem akan menjalankan analisis ringkas yang menunjukkan:
 - Status semakan dokumen
@@ -104,8 +105,8 @@ Selepas muat naik, sistem akan menjalankan analisis ringkas yang menunjukkan:
 <img src="./image/muat-naik-semakan/image5.png" alt="Bank Reconciliation" width="800">
 
 Langkah ini memerlukan:
-1. Muat naik fail Bank Reconciliation
-2. Muat naik fail rujukan yang berkaitan
+1. Muat naik fail Bank Reconciliation (Berdasarkan Fail Contoh yang diberikan)
+2. Muat naik fail rujukan yang berkaitan (Berdasarkan Fail Contoh yang diberikan)
 
 Selepas muat naik, sistem akan menjalankan analisis ringkas yang menunjukkan:
 - Status semakan dokumen
@@ -136,23 +137,13 @@ Langkah terakhir ini memaparkan analisis menyeluruh untuk semua dokumen yang tel
    - Jumlah pembetulan yang telah dibuat
    - Status semakan untuk setiap dokumen
 
-3. **Fungsi Muat Turun**
-   - Boleh memuat turun laporan analisis penuh
-   - Format laporan dalam PDF untuk rujukan
-   - Sesuai untuk simpanan rekod dan semakan lanjut
-
 ::: warning Nota Penting
 - Paparan ini adalah untuk **semakan sahaja**
 - Tiada fungsi edit atau muat naik pada peringkat ini
 - Sebarang pembetulan perlu dibuat dengan kembali ke langkah-langkah sebelumnya
 :::
 
-::: tip Fungsi Muat Turun
-Gunakan butang muat turun untuk mendapatkan salinan laporan analisis penuh bagi tujuan:
-- Rujukan dalaman
-- Rekod audit
-- Semakan dengan pihak pengurusan
-:::
+
 
 ::: tip Nota
 Setiap langkah 1 hingga 5 boleh diulang jika perlu membuat pembetulan. Walau bagaimanapun, langkah 6 (Overall Review) adalah muktamad dan tidak boleh diulang setelah disahkan.

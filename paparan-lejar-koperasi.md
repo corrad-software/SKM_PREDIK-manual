@@ -2,6 +2,27 @@
 
 Paparan Lejar berfungsi sebagai papan pemuka (dashboard) yang memaparkan maklumat kewangan koperasi secara tersusun dan komprehensif. Sistem ini mengintegrasikan data daripada pelbagai dokumen yang dimuat naik ke dalam format lejar yang standard.
 
+::: tip Langkah-langkah
+
+<img src="./image/paparan-lejar/image5.png" alt="Paparan Lejar" width="800">
+
+1. Pilih jenis organisasi
+2. Pilih anak syarikat yang disenaraikan
+3. Pilih Lejar yang terhasil daripada dokumen yang telah dimuat naik.
+4. Klik pada butang "Jana Lejar" untuk menghasilkan lejar.
+5. Penghasilan lejar mungkin mengambil sedikit masa. Sila tunggu sehingga lejar telah dihasilkan.
+
+<img src="./image/paparan-lejar/image6.png" alt="Paparan Lejar" width="800">
+
+6. Lejar yang telah siap dijana akan ditunjukkan berdasarkan paparan di bawah.
+
+<img src="./image/paparan-lejar/image10.png" alt="Paparan Lejar" width="800">
+
+7. Anda boleh click butang butang tersebut untuk mendapatkan penilaian risiko, semakan materialiti dan persampelan Audit oleh AI (Seperti yang ditulis di Ciri Ciri Utama).
+
+<img src="./image/paparan-lejar/image9.png" alt="Paparan Lejar" width="200">
+:::
+
 ## Ciri-ciri Utama
 
 ### 1. Paparan Lejar Automatik
@@ -25,8 +46,6 @@ Sistem dilengkapi dengan ciri penilaian risiko AI yang boleh diakses melalui but
 #### Faktor-faktor Yang Mempengaruhi Penilaian Risiko
 
 Sistem AI akan menilai risiko berdasarkan beberapa faktor utama:
-
-<img src="./image/paparan-lejar/image3.png" alt="Paparan Lejar" width="200">
 
 1. **Risiko Kewangan**
    - Nisbah hutang kepada ekuiti
@@ -75,6 +94,79 @@ Setiap faktor ini akan dinilai secara berterusan dan tahap risiko akan dikemaski
 - **Cadangan**:
   - Kemaskini dokumentasi pematuhan
   - Jadualkan mesyuarat semakan peraturan
+
+### 3. Semakan Materialiti AI (Materiality Check)
+
+Sistem dilengkapi dengan ciri semakan materialiti AI yang boleh diakses melalui butang di sudut kanan atas. Semakan ini memberikan analisis komprehensif secara masa nyata berdasarkan data kewangan terkini. Tahap materialiti dan cadangan akan berubah secara dinamik mengikut perubahan dalam data kewangan koperasi.
+
+<img src="./image/paparan-lejar/image7.png" alt="Semakan Materialiti" width="800">
+
+> **Nota**: Paparan ini hanyalah contoh. Tahap materialiti dan cadangan akan berbeza mengikut data sebenar koperasi anda.
+
+#### Faktor-faktor Yang Mempengaruhi Semakan Materialiti
+
+Sistem AI akan menilai materialiti berdasarkan beberapa faktor utama:
+
+
+1. **Materialiti Kewangan**
+   - Ambang kewangan yang ditetapkan
+   - Kesan terhadap penyata kewangan
+   - Trend pendapatan dan perbelanjaan
+   - Prestasi aset
+
+2. **Materialiti Operasi**
+   - Kesan operasi
+   - Kawalan dalaman
+   - Prosedur dokumentasi
+   - Prestasi kakitangan
+
+3. **Materialiti Pematuhan**
+   - Perubahan dalam peraturan
+   - Status dokumentasi
+   - Keperluan audit
+   - Pematuhan kepada garis panduan koperasi
+
+Setiap faktor ini akan dinilai secara berterusan dan tahap materialiti akan dikemaskini secara automatik apabila:
+- Data kewangan baharu dimuat naik
+- Perubahan dalam trend kewangan dikesan
+- Pengemaskinian dalam dokumentasi pematuhan
+- Perubahan dalam metrik operasi
+
+### 4. Persampelan Audit AI (Audit Sampling)
+
+Sistem dilengkapi dengan ciri persampelan audit AI yang boleh diakses melalui butang di sudut kanan atas. Persampelan ini memberikan analisis komprehensif secara masa nyata berdasarkan data kewangan terkini. Tahap risiko dan cadangan akan berubah secara dinamik mengikut perubahan dalam data kewangan koperasi.
+
+<img src="./image/paparan-lejar/image8.png" alt="Persampelan Audit" width="800">
+
+> **Nota**: Paparan ini hanyalah contoh. Tahap risiko dan cadangan akan berbeza mengikut data sebenar koperasi anda.
+
+#### Faktor-faktor Yang Mempengaruhi Persampelan Audit
+
+Sistem AI akan menilai persampelan audit berdasarkan beberapa faktor utama:
+
+1. **Risiko Kewangan**
+   - Nisbah hutang kepada ekuiti
+   - Metrik kecairan semasa
+   - Aliran tunai
+   - Prestasi aset
+
+2. **Risiko Operasi**
+   - Kecekapan operasi
+   - Kawalan dalaman
+   - Prosedur dokumentasi
+   - Prestasi kakitangan
+
+3. **Risiko Pematuhan**
+   - Perubahan dalam peraturan
+   - Status dokumentasi
+   - Keperluan audit
+   - Pematuhan kepada garis panduan koperasi
+
+Setiap faktor ini akan dinilai secara berterusan dan tahap risiko akan dikemaskini secara automatik apabila:
+- Data kewangan baharu dimuat naik
+- Perubahan dalam trend kewangan dikesan
+- Pengemaskinian dalam dokumentasi pematuhan
+- Perubahan dalam metrik operasi
 
 ## Nota Penting
 

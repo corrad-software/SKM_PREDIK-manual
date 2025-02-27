@@ -74,9 +74,9 @@ export default defineConfig({
             text: "Paparan",
             collapsed: false,
             items: [
+              { text: "Muat Naik & Semakan", link: "/muat-naik-semakan-koperasi" },
               { text: "Paparan Indeks", link: "/paparan-indeks-koperasi" },
               { text: "Paparan Lejar", link: "/paparan-lejar-koperasi" },
-              { text: "Muat Naik & Semakan", link: "/muat-naik-semakan-koperasi" },
             ],
           },
         ],

@@ -22,6 +22,9 @@ Modul ini membolehkan anda mengurus Koperasi dan syarikat-syarikat subsidiari an
    - Cari ruangan input dengan label "Nombor Akaun Bank"
    - Masukkan nombor akaun bank yang aktif
    - Pastikan nombor yang dimasukkan adalah tepat untuk mengelakkan masalah pembayaran
+   
+3. **Dokumen Diperlukan**
+   - Tekan Butang "Muat Naik" untuk memuat naik dokumen dan anda akan dihalakan ke halaman muat naik dan semakan dokumen
 :::
 
 ## Anak Syarikat
@@ -65,9 +68,12 @@ Berikut adalah senarai dokumen yang perlu dimuat naik:
 
 ::: tip Langkah-langkah
 1. Klik butang "Tambah Anak Syarikat" berwarna biru di bahagian kanan atas
-2. Semak senarai "Dokumen Diperlukan" dengan mengklik butang yang disediakan
-3. Sediakan semua dokumen yang diperlukan dalam format yang betul
-4. Isi semua maklumat yang diperlukan dalam borang pendaftaran
+2. Masukkan Nama Syarikat dan Nombor Akaun Bank (Dalam contoh ini, Syarikat A dan 1234567890)
+3. Semak senarai "Dokumen Diperlukan" dengan mengklik butang yang disediakan. 
+4. Paparan semak senarai ini boleh digunakan untuk menyemak dokumen samada telah dimuatnaik atau tidak ke dalam sistem.
+5. Sediakan semua dokumen yang diperlukan dalam format yang betul
+6. Isi semua maklumat yang diperlukan dalam borang pendaftaran
+7. Klik butang "Simpan" untuk menyimpan maklumat anak syarikat
 :::
 
 ::: warning Nota Penting
