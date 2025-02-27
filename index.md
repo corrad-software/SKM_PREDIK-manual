@@ -6,9 +6,7 @@ hero:
   name: "PRIDIK"
   text: "Manual Pengguna PRIDIK"
   tagline: Panduan lengkap penggunaan sistem PRIDIK untuk pengguna
-  image:
-    src: ./image/logo.png
-    alt: Logo SKM
+
   actions:
     - theme: brand
       text: Carta Alir Sistem
