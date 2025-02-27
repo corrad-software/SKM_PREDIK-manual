@@ -52,28 +52,37 @@ export default defineConfig({
 
     nav: [
       { text: "Utama", link: "/" },
-      { text: "Carta Alir Sistem", link: "/carta-alir" },
-      { text: "Pengurusan Entiti", link: "/pengurusan-entiti" },
+     
+      {
+        text: "Carta Alir",
+        items: [
+          { text: "Carta Alir Sistem", link: "/carta-alir-sistem" },
+          { text: "Carta Alir Pengguna", link: "/carta-alir-pengguna" },
+        ],
+      },
       {
         text: "Paparan",
         items: [
-          { text: "Paparan Indeks", link: "/paparan-indeks" },
-          { text: "Paparan Lejar", link: "/paparan-lejar" },
+          { text: "Pengurusan Entiti", link: "/pengurusan-entiti" },
+          { text: "Muat Naik & Semakan", link: "/muat-naik-semakan-koperasi" },
+          { text: "Paparan Indeks", link: "/paparan-indeks-koperasi" },
+          { text: "Paparan Lejar", link: "/paparan-lejar-koperasi" },
         ],
       },
     ],
 
     sidebar: [
       {
-        text: "Carta Alir Sistem",
+        text: "",
         items: [
           { text: "Utama", link: "/" },
-          { text: "Carta Alir Sistem", link: "/carta-alir" },
-          { text: "Pengurusan Entiti", link: "/pengurusan-entiti" },
+          { text: "Carta Alir Sistem", link: "/carta-alir-sistem" },
+          { text: "Carta Alir Pengguna", link: "/carta-alir-pengguna" },
           {
             text: "Paparan",
             collapsed: false,
             items: [
+              { text: "Pengurusan Entiti", link: "/pengurusan-entiti" },
               { text: "Muat Naik & Semakan", link: "/muat-naik-semakan-koperasi" },
               { text: "Paparan Indeks", link: "/paparan-indeks-koperasi" },
               { text: "Paparan Lejar", link: "/paparan-lejar-koperasi" },
