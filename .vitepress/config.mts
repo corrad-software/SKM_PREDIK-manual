@@ -76,8 +76,14 @@ export default defineConfig({
         text: "",
         items: [
           { text: "Utama", link: "/" },
-          { text: "Carta Alir Sistem", link: "/carta-alir-sistem" },
-          { text: "Carta Alir Pengguna", link: "/carta-alir-pengguna" },
+          {
+            text: "Carta Alir",
+            collapsed: false,
+            items: [
+              { text: "Carta Alir Sistem", link: "/carta-alir-sistem" },
+              { text: "Carta Alir Pengguna", link: "/carta-alir-pengguna" },
+            ],
+          },
           {
             text: "Paparan",
             collapsed: false,
