@@ -16,6 +16,10 @@ hero:
       link: /carta-alir-pengguna
 
 features:
+  - icon: 🔑
+    title: Log Masuk 
+    details: Log masuk ke sistem dengan maklumat yang betul.
+    link: /login  
   - icon: 🏢
     title: Pengurusan Entiti 
     details: Urus maklumat dan tetapan entiti dengan mudah dan efisien.
