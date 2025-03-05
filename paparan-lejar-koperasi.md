@@ -90,83 +90,92 @@ Setiap faktor ini akan dinilai secara berterusan dan tahap risiko akan dikemaski
 
 #### Risiko Pematuhan (Compliance Risk)
 - **Tahap**: SEDERHANA (MEDIUM) - PEMANTAUAN
-- **Petunjuk**: Perubahan peraturan terkini memerlukan perhatian
+- **Petunjuk**: Perubahan dalam peraturan terkini memerlukan perhatian
 - **Cadangan**:
   - Kemaskini dokumentasi pematuhan
   - Jadualkan mesyuarat semakan peraturan
 
-### 3. Semakan Materialiti AI (Materiality Check)
+### 3. Semakan Materialiti (Materiality Check)
 
-Sistem dilengkapi dengan ciri semakan materialiti AI yang boleh diakses melalui butang di sudut kanan atas. Semakan ini memberikan analisis komprehensif secara masa nyata berdasarkan data kewangan terkini. Tahap materialiti dan cadangan akan berubah secara dinamik mengikut perubahan dalam data kewangan koperasi.
+Sistem dilengkapi dengan ciri semakan materialiti yang boleh diakses melalui butang di sudut kanan atas. Semakan ini memberikan analisis komprehensif secara masa nyata berdasarkan data kewangan terkini.
 
 <img src="./image/paparan-lejar/image7.png" alt="Semakan Materialiti" width="800">
 
-> **Nota**: Paparan ini hanyalah contoh. Tahap materialiti dan cadangan akan berbeza mengikut data sebenar koperasi anda.
+#### Langkah-langkah Semakan Materialiti:
 
-#### Faktor-faktor Yang Mempengaruhi Semakan Materialiti
+1. Klik pada butang "Semakan Materialiti" di bahagian atas paparan lejar.
+2. Tetapkan parameter materialiti berikut:
 
-Sistem AI akan menilai materialiti berdasarkan beberapa faktor utama:
+   a. **Pemilihan Benchmark (Asas Pengiraan)**
+      - Pilih benchmark yang sesuai dari senarai dropdown
+      - Sistem akan memaparkan panduan:
+        - Jualan: Untuk syarikat yang aktif
+        - Jumlah Aset: Jika syarikat tidak mempunyai jualan
+        - Perbelanjaan: Jika sesuai dengan profil syarikat
 
+   b. **Nilai Benchmark (RM)**
+      - Masukkan nilai benchmark dalam Ringgit Malaysia (contoh: 200,000)
 
-1. **Materialiti Kewangan**
-   - Ambang kewangan yang ditetapkan
-   - Kesan terhadap penyata kewangan
-   - Trend pendapatan dan perbelanjaan
-   - Prestasi aset
+   c. **Peratusan Materialiti (%)**
+      - Masukkan peratusan materialiti (contoh: 1.5%)
 
-2. **Materialiti Operasi**
-   - Kesan operasi
-   - Kawalan dalaman
-   - Prosedur dokumentasi
-   - Prestasi kakitangan
+   d. **Peratusan Performance Materiality (50%-75%)**
+      - Masukkan nilai antara 50% hingga 75% (contoh: 60%)
+      - Nota: Tidak boleh melebihi 100%
 
-3. **Materialiti Pematuhan**
-   - Perubahan dalam peraturan
-   - Status dokumentasi
-   - Keperluan audit
-   - Pematuhan kepada garis panduan koperasi
+   e. **Peratusan Clearly Trivial Threshold (5%-10%)**
+      - Masukkan nilai antara 5% hingga 10% (contoh: 6%)
+      - Nota: Boleh melebihi 10% jika perlu
 
-Setiap faktor ini akan dinilai secara berterusan dan tahap materialiti akan dikemaskini secara automatik apabila:
-- Data kewangan baharu dimuat naik
-- Perubahan dalam trend kewangan dikesan
-- Pengemaskinian dalam dokumentasi pematuhan
-- Perubahan dalam metrik operasi
+3. Klik butang "Kira Materialiti" untuk menghasilkan pengiraan materialiti berdasarkan parameter yang ditetapkan.
 
-### 4. Persampelan Audit AI (Audit Sampling)
+> **Nota**: Pengiraan materialiti akan berbeza mengikut data sebenar koperasi anda dan parameter yang dipilih.
 
-Sistem dilengkapi dengan ciri persampelan audit AI yang boleh diakses melalui butang di sudut kanan atas. Persampelan ini memberikan analisis komprehensif secara masa nyata berdasarkan data kewangan terkini. Tahap risiko dan cadangan akan berubah secara dinamik mengikut perubahan dalam data kewangan koperasi.
+### 4. Persampelan Audit (Audit Sampling)
+
+Sistem dilengkapi dengan ciri persampelan audit yang boleh diakses melalui butang di sudut kanan atas. Persampelan ini membolehkan juruaudit memilih sampel transaksi untuk pemeriksaan audit secara sistematik.
 
 <img src="./image/paparan-lejar/image8.png" alt="Persampelan Audit" width="800">
+<img src="./image/paparan-lejar/image11.png" alt="Persampelan Audit" width="800">
 
-> **Nota**: Paparan ini hanyalah contoh. Tahap risiko dan cadangan akan berbeza mengikut data sebenar koperasi anda.
+#### Langkah-langkah Persampelan Audit:
 
-#### Faktor-faktor Yang Mempengaruhi Persampelan Audit
+1. Klik pada butang "Persampelan Audit" di bahagian atas paparan lejar.
+2. Tetapkan parameter persampelan berikut:
 
-Sistem AI akan menilai persampelan audit berdasarkan beberapa faktor utama:
+   a. **Takrifkan Populasi**
+      - Tentukan skop populasi yang akan diaudit
 
-1. **Risiko Kewangan**
-   - Nisbah hutang kepada ekuiti
-   - Metrik kecairan semasa
-   - Aliran tunai
-   - Prestasi aset
+   b. **Tempoh Masa**
+      - Pilih tarikh mula dan tarikh akhir untuk menentukan tempoh masa transaksi yang akan disampel
+      - Gunakan format dd/mm/yyyy untuk kedua-dua tarikh
 
-2. **Risiko Operasi**
-   - Kecekapan operasi
-   - Kawalan dalaman
-   - Prosedur dokumentasi
-   - Prestasi kakitangan
+   c. **Julat Nilai (RM)**
+      - Masukkan nilai minimum dan maksimum dalam Ringgit Malaysia untuk menapis transaksi berdasarkan nilai
 
-3. **Risiko Pematuhan**
-   - Perubahan dalam peraturan
-   - Status dokumentasi
-   - Keperluan audit
-   - Pematuhan kepada garis panduan koperasi
+   d. **Jenis Transaksi**
+      - Pilih jenis transaksi yang ingin disampel dari senarai dropdown
 
-Setiap faktor ini akan dinilai secara berterusan dan tahap risiko akan dikemaskini secara automatik apabila:
-- Data kewangan baharu dimuat naik
-- Perubahan dalam trend kewangan dikesan
-- Pengemaskinian dalam dokumentasi pematuhan
-- Perubahan dalam metrik operasi
+   e. **Kaedah Sampling**
+      - Pilih salah satu kaedah persampelan:
+        - **Random Sampling**: Pemilihan item secara rawak dari keseluruhan populasi
+        - **Systematic Sampling**: Pemilihan item pada selang tetap
+        - **Stratified Sampling**: Populasi dibahagikan kepada subkumpulan berdasarkan ciri-ciri tertentu
+
+   f. **Saiz Sampel**
+      - Pilih sama ada untuk menentukan saiz sampel secara manual atau automatik
+      - Jika manual, masukkan bilangan sampel yang dikehendaki
+      - Klik "Kira Saiz Sampel" untuk mengira saiz sampel yang optimum (jika diperlukan)
+
+   g. **Penemuan Audit**
+      - Masukkan nota penemuan audit dalam ruang yang disediakan
+
+   h. **Penilaian Materialiti**
+      - Pilih penilaian materialiti dari senarai dropdown
+
+3. Klik butang "Jana Sampel" untuk menghasilkan sampel berdasarkan parameter yang ditetapkan.
+
+> **Nota**: Hasil persampelan akan berbeza mengikut parameter yang dipilih dan data sebenar koperasi anda.
 
 ## Nota Penting
 
